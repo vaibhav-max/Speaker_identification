@@ -1,0 +1,26 @@
+patience: 5
+
+dataloader_args:
+  batch_size: 200
+  drop_last: true
+  num_workers: 16
+  pin_memory: false
+  prefetch_factor: 8
+
+loss: CrossEntropyLoss
+loss_args: {}
+
+model: pyannote.audio.models.embedding.XVectorSincNet
+
+num_epochs: 15
+
+optimizer: Adam
+optimizer_args:
+  lr: 0.001
+  betas:
+  - 0.9
+  - 0.999
+  eps: 1.0e-08
+  weight_decay: 0
+  amsgrad: false
+

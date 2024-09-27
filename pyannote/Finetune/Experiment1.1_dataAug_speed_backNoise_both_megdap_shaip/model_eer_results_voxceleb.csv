@@ -1,0 +1,8 @@
+Model,Data,EER
+Models_lr=0.0001_weight_decay=0_amsgrad=False_xvector_epoch5_EER0.000300.pt,Voxceleb_test,0.04505623982611927
+Models_lr=0.001_weight_decay=0_amsgrad=True_xvector_epoch6_EER0.000250.pt,Voxceleb_test,0.05595497967897775
+Models_lr=0.0001_weight_decay=0_amsgrad=True_xvector_epoch3_EER0.000234.pt,Voxceleb_test,0.045505508458068236
+Models_lr=0.001_weight_decay=0.0005_amsgrad=False_xvector_epoch1_EER0.000332.pt,Voxceleb_test,0.05712337782195573
+Models_lr=0.0001_weight_decay=0.0005_amsgrad=False_xvector_epoch2_EER0.000156.pt,Voxceleb_test,0.041255548336529994
+Models_lr=0.001_weight_decay=0.0005_amsgrad=True_xvector_epoch1_EER0.000333.pt,Voxceleb_test,0.05859077506685578
+Models_lr=0.0001_weight_decay=0.0005_amsgrad=True_xvector_epoch3_EER0.000226.pt,Voxceleb_test,0.040613276955854066
